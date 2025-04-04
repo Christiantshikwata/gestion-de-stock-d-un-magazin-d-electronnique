@@ -6,8 +6,8 @@ public class Main {
     public static void main(String[] args) {
         // Simulation des utilisateurs enregistrés
         List<Utilisateur> utilisateurs = new ArrayList<>();
-        utilisateurs.add(new Admin(1, "Administrateur", "Alice", "admin123"));
-        utilisateurs.add(new Magazinier(2, "Magasinier", "Bob", "mag123")); 
+        utilisateurs.add(new Admin(1, "Administrateur", "winnie", "admin123"));
+        utilisateurs.add(new Magazinier(2, "Magasinier", "christian", "mag123")); 
         Produit produit1 = new Produit(1, "Ordinateur", 1500.00, 10);
         Telephone produit2 = new Telephone(2, "Téléphone", 800.00, 20, "Android", 4000, "12MP");
         Accessoire produit3 = new Accessoire(3, "Chargeur rapide", 30.00, 50, "Chargeur");
